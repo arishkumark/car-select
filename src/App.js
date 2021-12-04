@@ -1,4 +1,8 @@
 import React from 'react';
+import {
+  Routes,
+  Route
+} from "react-router-dom";
 import { Container, Box, Typography } from '@mui/material';
 import { IntlProvider, FormattedMessage } from "react-intl";
 import { ThemeProvider } from '@mui/material/styles';
@@ -21,6 +25,10 @@ function App() {
             <Typography variant="h5" align="center">
               <FormattedMessage id="app.CAR_SELECT" />
             </Typography>
+            <Routes>
+              <Route path="/" element={<div>Home</div>} />
+              <Route path="select" element={<div>select</div>} />
+            </Routes>
           </Box>
         </Container>
       </IntlProvider>
