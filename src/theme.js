@@ -1,11 +1,11 @@
 import { red } from '@mui/material/colors';
-import { createTheme } from '@mui/material/styles';
+import { createTheme, responsiveFontSizes } from '@mui/material/styles';
 
 // A custom theme for this app
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#556cd6',
+      main: '#7e57c2',
     },
     secondary: {
       main: '#19857b',
@@ -14,15 +14,48 @@ const theme = createTheme({
       main: red.A400,
     },
   },
+  typography: {
+    fontFamily: [
+      'Open Sans',
+      'Roboto',
+      'Arial',
+      'sans-serif',
+    ].join(','),
+  },
   components: {
     MuiButton: {
       styleOverrides: {
         root: {
-          minWidth: 150
+          minWidth: 150,
+          textTransform: 'capitalize'
+        },
+        text: {
+          minWidth: 100
+        },
+        contained: {
+          fontWeight: 600,
+          fontSize: 16,
+          borderRadius: 100,
+          padding: '8px 32px'
         }
       }
-    }
+    },
+    MuiAppBar: {
+      styleOverrides: {
+        root: {
+          background: '#fff',
+        }
+      }
+    },
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          boxShadow: 'none',
+        }
+      }
+    },
+    
   }
 });
 
-export default theme;
+export default responsiveFontSizes(theme);

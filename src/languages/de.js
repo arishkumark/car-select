@@ -1,0 +1,33 @@
+/* eslint-disable max-len */
+const de = {
+  'dashboard.CHANGE_NOW': 'Jetzt ändern',
+  'dashboard.DECIDE_NOW': 'Entscheiden Sie sich für Ihr neues Auto',
+  'dashboard.LIST_1': 'Wählen Sie Ihr Wunschauto mit einer Berührung',
+  'dashboard.LIST_2': 'Vertrauenswürdige Kunden auf der ganzen Welt',
+  'dashboard.LIST_3': 'Kundensupport rund um die Uhr',
+  'dashboard.SELECT': 'Wählen Sie Ihr Auto',
+  'dashboard.TITLE': 'Ihre Autoversicherung mit ECO Klimaschutzbeitrag',
+  'dashboard.DESC': 'In 90 Sekunden können Sie der Umwelt etwas Gutes tun. Reduzieren Sie Ihren ökologischen Fußabdruck mit ECO. Egal, ob Sie sich für den Kilometertarif oder Original entscheiden, wählen Sie einfach vor der Anmeldung die Option der CO2-Kompensation. Die CO2-Emissionen der gefahrenen Kilometer werden von unserem Partner myclimate am Jahresende automatisch kompensiert.',
+  'appBar.SELECT': 'Auswählen',
+  'select.TITLE': 'Bitte wählen Sie die Marke und das Modell aus',
+  'select.CHOOSE_BRAND': 'Wähle eine Marke',
+  'select.CHOOSE_MODEL': 'Wähle ein Modell',
+  'select.GET_DETAILS': 'Beschaffe die Einzelheiten',
+  'select.NO_MODEL_AVAILABLE': 'Keine Modelle für diese Marke verfügbar. Bitte wählen Sie eine andere Marke!',
+  'select.success.TITLE': 'Hurra! Das ist ein tolles Auto!!!',
+  'select.success.SUPPORT': 'Bitte warten Sie etwas und Sie werden bald von uns hören!',
+  'select.success.GO_BACK': 'Gehe zu Dashboard',
+  'select.NO_DATA_FOUND': 'Es tut uns leid! keine Daten für die ausgewählte Option gefunden',
+  'select.RETRY': 'Bitte wählen Sie eine andere Option und versuchen Sie es erneut',
+  'select.table.MAKE': 'Machen',
+  'select.table.MODEL': 'Modell',
+  'select.table.ENGINE_POWER_PS': 'Motorleistung in PS-Einheiten',
+  'select.table.ENGINE_POWER_KV': 'Motorleistung in Kilowatt',
+  'select.table.FUEL_TYPE': 'Treibstoffart',
+  'select.table.BODY_TYPE': 'Körpertyp',
+  'select.table.ENGINE_CAPACITY': 'Hubraum',
+  'select.table.ROWS_PER_PAGE': 'Zeilen pro Seite:',
+  'select.info.CONFIRM': 'Bestätigen Sie',
+  'app.ERROR': 'Es tut uns leid! Bitte versuchen Sie es nach einiger Zeit erneut'
+};
+export default de;
